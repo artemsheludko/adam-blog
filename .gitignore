@@ -2,6 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules/
-packge.json
+package.json
 gulpfile.js
 yarn.lock
