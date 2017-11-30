@@ -4,6 +4,7 @@ rvm:
 before_script:
   - npm install -g gulp-cli
   - npm install
+  - gem install jekyll
 script:
 - jekyll build
 env:
