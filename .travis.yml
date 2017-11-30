@@ -3,7 +3,7 @@ rvm:
 - 2.1
 before_script:
   - npm install -g gulp-cli
-  - npm install gulp
+  - npm install
 script:
 - gulp jekyll build
 env:
