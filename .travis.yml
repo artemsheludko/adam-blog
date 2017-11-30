@@ -1,8 +1,10 @@
 language: ruby
 rvm:
 - 2.1
+before_script:
+  - npm install -g gulp-cli
 script:
-- bundle exec jekyll build
+- gulp jekyll build
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
