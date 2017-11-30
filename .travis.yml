@@ -2,9 +2,9 @@ language: ruby
 rvm:
 - 2.1
 before_script:
-  - npm install -g gulp-cli
-  - npm install
-  - gem install jekyll jekyll-paginate jekyll-feed jekyll-sitemap
+- npm install -g gulp-cli
+- npm install
+- gem install jekyll jekyll-paginate jekyll-feed jekyll-sitemap
 script:
 - jekyll build
 env:
@@ -16,7 +16,7 @@ deploy:
   provider: s3
   access_key_id: AKIAIXSAFTOMITJARX5Q
   secret_access_key:
-    secure: JNRyYujRrvMko1EwiTSUu4LMXj/tOLrU4QOsauJh9VQm4ek1b9pJCT/hNvGu8r2amsb7lv5DUrPZz0t7EwfNyIw7biz1fkuGSkVjdXZ8jmbs30/Gkgy7p4XM07I+DxIyktIcP5yG/Whlr6Fn2U7xMH6lzbcp+GF0ZFV+GUSFQUpHwGvl+MUZ3AXc8TeMvDoP0zBmPoZKH8CL/SdNROAOatW0S28eCiEFJhhZktPXWlL5JTgB6Fq3qBUtwPEnjTztd772Eeo0dHam9AcWZUMf2RjpSHbIgXRNzrsZKXcQCrVgIWBP+Yc0pulWN8SboYBVnunVLhb6gopSYbDZnuL8624P93uMLtZnN/rM+70oI068qZGi95LOZXkzoOjkAKCEQTIdOn+oqhcXQaftBdCdQog/InBnYMwOQefWh5E4HhDXWWh7UHD4U932j06EYPC1zanWLFXmzxcXkdFu3ijIbcoadzfRaB6w8gy+nTGse2u7j1kWV+zQIeI+ZRWYa6EnF20jWMhQ+cHcROhriP7SAhmr1hLqcKdxwqk1BYyJsQBCtHe5QX8JqUp5rcIiFzi6MWVIztZghRyrUxVBUJ4P5acUqdefe9VXHNL7vkcoD5ID/70Vf7Hc9J7OAXiw0InmX6Caba6SJKcqjMdQTL0IgGE4z1FGtnndv6jlfYMghNA=
+    secure: FZSxoKb9bXMoKz5w9M6A4UEA9tL9RTtUwJCc5IT6UpE2FzNtiaiCjhepw5Az3h8XrwR9/r21npOuJ/XdMzmrg8PzET7zbcwbU0hspBMXGwCBSvop9wg5JRQWmf4ijmB2zNhN9cxMzRwyfbRnrjRc0RQ11Snbwz8ij7OGV4M+M8DrK8xU0NsgyfLCiGLOGGWCjMaae1vLIjPIV7dvpmVPsziVBIOyhAHuNez0AbqUoJIThSJKR8pxiPMPL2uuE00N8yQ8I6CINtJB35bt2xFbwcSR0KX9ol3PcBIwPKUEoBmp7KaZkVSi/f5BNLwOCG0r2dR7Rlzkl4Yf6HUTngHf2mqGOWoTv9dco3lLQQ7SsOdgh2PFP202g/cC/2i2IzqT6577MfC+X8b8zQcSFLdWdSjBCGNRJHvIrYOdiHG9FZMgmCTostKw2jBe16LCGEc5o9de6ikhvlkBBDzADWHPOdnUJOVjOMynYg1g0eQEcujimqUnEnUb6gz6SUMirxFy/okpvt8+h3EmmUGLk5O9r/CQP3asFoPAdZuHmORyr/mw3QTpJvsKW3HZiADzGyk0wFUqvVnSMYnw7QKDfrbB43YMN6ntX6dY5yqX2zYMtzLDzJ+KzfLNgtuTEKAJdrFOWxcugezVuOUv6SLdgwPKjxo685raiQCWgnSBCcwWYR8=
   bucket: patrickmcdavid.com
   local-dir: _site
   acl: public_read
