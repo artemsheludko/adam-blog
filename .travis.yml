@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.1
 script:
-- gulp jekyll build
+- bundle exec jekyll build
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
