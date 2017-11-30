@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+- 2.1
+script:
+- gulp jekyll build
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+deploy:
+  skip_cleanup: true
+  provider: s3
+  access_key_id: AKIAIXSAFTOMITJARX5Q
+  secret_access_key:
+    secure: JNRyYujRrvMko1EwiTSUu4LMXj/tOLrU4QOsauJh9VQm4ek1b9pJCT/hNvGu8r2amsb7lv5DUrPZz0t7EwfNyIw7biz1fkuGSkVjdXZ8jmbs30/Gkgy7p4XM07I+DxIyktIcP5yG/Whlr6Fn2U7xMH6lzbcp+GF0ZFV+GUSFQUpHwGvl+MUZ3AXc8TeMvDoP0zBmPoZKH8CL/SdNROAOatW0S28eCiEFJhhZktPXWlL5JTgB6Fq3qBUtwPEnjTztd772Eeo0dHam9AcWZUMf2RjpSHbIgXRNzrsZKXcQCrVgIWBP+Yc0pulWN8SboYBVnunVLhb6gopSYbDZnuL8624P93uMLtZnN/rM+70oI068qZGi95LOZXkzoOjkAKCEQTIdOn+oqhcXQaftBdCdQog/InBnYMwOQefWh5E4HhDXWWh7UHD4U932j06EYPC1zanWLFXmzxcXkdFu3ijIbcoadzfRaB6w8gy+nTGse2u7j1kWV+zQIeI+ZRWYa6EnF20jWMhQ+cHcROhriP7SAhmr1hLqcKdxwqk1BYyJsQBCtHe5QX8JqUp5rcIiFzi6MWVIztZghRyrUxVBUJ4P5acUqdefe9VXHNL7vkcoD5ID/70Vf7Hc9J7OAXiw0InmX6Caba6SJKcqjMdQTL0IgGE4z1FGtnndv6jlfYMghNA=
+  bucket: patrickmcdavid.com
+  local-dir: _site
+  acl: public_read
+  cache_control: max-age=120
+  on:
+    repo: ehippy/blog
