@@ -5,7 +5,7 @@ before_script:
   - npm install -g gulp-cli
   - npm install
 script:
-- gulp jekyll-build
+- jekyll build
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
