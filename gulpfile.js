@@ -11,7 +11,7 @@ var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
 // Build the Jekyll Site
 gulp.task('jekyll-build', function (done) {
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build', '--future'], {stdio: 'inherit'})
         .on('close', done);
 });
 
