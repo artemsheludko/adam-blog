@@ -11,8 +11,8 @@ url: "https://patrickmcdavid.com" # the base hostname & protocol for your site, 
 author: Patrick McDavid
 author-pic: patrick_mcdavid_headshot.jpg
 about-author: >
- My name is Patrick McDavid. I'm the VP of Technology at BombBomb, changing how people communicate with simple videos.
- I like chasing my kids around outside.
+ My name is Patrick McDavid. I'm the VP of Technology at BombBomb. We're changing how people communicate with simple videos.
+ I like chasing my kids around outside, talking and tinkering with tech.
 
 # Contact links
 email: pmcdavid@gmail.com
@@ -32,7 +32,7 @@ mailchimp: eepurl.com/dcpl-9
 discus_identifier: patrickmcdavid
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-110506771-1
 
 # Paginate
 paginate: 6
