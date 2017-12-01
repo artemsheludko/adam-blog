@@ -11,7 +11,7 @@ _Reblogged from [developer.bombbomb.com](https://developer.bombbomb.com/blog/201
 I've had the enormous fortune to lead an engineering organization comprised of women and men who delight in challenging one another every day. This camaraderie leads to better products, more creativity and a happier workplace. At BombBomb we often get to work on really cool stuff that pushes our ability and knowledge, but at the same time these tasks are often that: assigned work. It's gotta be done, but how can we really lean to the other side and let engineers run wild?
 
 ## Hack Week 2015
-In the spirit of freedom and innovation BombBomb held it's first hack week in the Spring of 2015. No sprint planning, nothing assigned, just five days of developer-driven creative expression. We didn't go in completely blind, we'd read up on [Spotify's similar tradtion](https://labs.spotify.com/2013/02/15/organizing-a-hack-week/). So the rules were simple: 
+In the spirit of freedom and innovation BombBomb held it's first hack week in the Spring of 2015. No sprint planning, nothing assigned, just five days of developer-driven creative expression. We didn't go in completely blind, we'd read up on [Spotify's similar tradition](https://labs.spotify.com/2013/02/15/organizing-a-hack-week/). So the rules were simple: 
 
  - Pick a team, or go alone
  - Work on anything that would be awesome at BombBomb
