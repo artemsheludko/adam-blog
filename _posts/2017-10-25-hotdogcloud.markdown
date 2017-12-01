@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hotdog detection with Serverless Computer Vision
-description: Feeling jazzed to hear some CTOs and VPEs drop knowledge next week.
+title: Serverless Hotdog Detection
+description: Hotdog.cloud is a little web app that detects and celebrates hotdogs!
 img: hotdogcollage.jpg
 tags: [Presentation, Talk, Serverless, Machine Learning, Javascript, AWS, Rekognition]
 ---
@@ -14,9 +14,9 @@ I wish I'd went to the trouble of recording the presentation, and will try that 
 
 ## Hotdog Cloud?
 <img src="/assets/img/dogClip.gif" style="float:right;padding-left:20px;">
-The hottest space in tech in 2017 is inarguably hotdog detection and non-detection. Everybody's trying to get a piece of the action. So I spent a couple nights building <https://hotdog.cloud> a mobile-friendly hotdog detection app. Give it a shot right now. [Hotdog cloud is open sourced on github](https://github.com/ehippy/hotdog), so feel free to play with it.
+The hottest space in tech in 2017 is inarguably hotdog detection and non-detection. Everybody's trying to get a piece of the action. So I spent a couple nights building <https://hotdog.cloud> a mobile-friendly hotdog detection app. Give it a try! It's especially good on your phone. [Hotdog cloud is open sourced on github](https://github.com/ehippy/hotdog), so feel free to fork away.
 
-Hotdog Cloud ties together about half a dozen AWS services to offer an encrypted, zero-cost-at-rest web application.
+Hotdog Cloud ties together about half a dozen AWS services to offer an encrypted, zero-cost-at-rest web application. It's a pretty tight demonstration of the power available with some succinct glue-code to remix a number of ready-built cloud services to achieve a pretty slick outcome.
 
 ## Takeaways
 
@@ -29,3 +29,5 @@ I really enjoy the serverless framework's blend of control and automation. I've 
 In the future I'd like to try pointing serverless at Google Cloud or Azure and see what the appreciable differences are there.
 
 Hotdog cloud was a great little project that's still fun to pull out on my phone whenever the bratwurst guy at home depot tempts me by.
+
+_Update: I got a nice chuckle when a few days later AWS's official blog posted [a similar example](https://aws.amazon.com/blogs/startups/building-a-hotdog-detecting-app-on-aws-yes-really/) using rekognition to detect hotdogs on slack._
