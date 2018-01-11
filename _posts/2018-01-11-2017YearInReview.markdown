@@ -1,0 +1,56 @@
+---
+layout: post
+title: "A look back at 2017"
+description: I look back on 2017
+img: wrenSnow.jpg
+tags: [Retrospective]
+---
+
+2017 was a year of upheaval and growth by necessity.
+
+## At Home
+### It's a girl!
+Our daughter, Wren, came in May. The second child is multiplicative rather than additive, for sure. Our son was two, so we'd seen a bit of parenthood, but the new effect started on day one with our son having brought a little impetigo infection to the recovery room. Ok, so our one-hour-old has to contend with the germ warfare going on at daycare from the start? That's new.
+
+She's 7 months old now and wonderful. There's a special kind of bliss seeing she and her brother being sweet to one another. We've found new routines, recipes and reactions that are keeping everyone fairly sane. The double-daycare-dropoff in the morning feels like a real fatherhood rite.
+
+### Why not buy a house too?
+[My wife](https://twitter.com/madmao) and my relationship began around [gardening](https://www.uccs.edu/seas/index.html). In 2012 we bought a small house with a huge yard, and proceeded to install four huge garden beds, a chicken coop, a pair of dogs, and generally fancied ourselves to be mediocre, though enthusiastic urban farmers.
+
+With the second baby, our needs turned a little more practical, and our futures towards school districts and play dates. We toured about a dozen houses on the west side of Colorado Springs over the course of four months or so and worked Zillow like a job. Then one day we found the one, it was listed and we had an offer written on in within about eight hours. We really love it: cars in the garage, awesome great-room on the kitchen, 3/2 upstairs and another 1/1 down. Across the street from one of the biggest parks in town.
+
+It all happened a little fast, and we haven't officially sold our old place just yet, but it's getting close now. I'd like to think the personal upheaval might abate through 2018, but I guess we'll have to wait and see.
+
+## At BombBomb
+BombBomb had a phenomenal year: revenue and staff headcount both grew in the ballpark of 60% over 2016. Our new [prompt tools](https://bombbomb.com/prompt/) were a breakout success and promise to be a foundational element of how we build software at BombBomb for the next few years.
+
+### 7 Technology Teams, sliced thin
+
+2017 started with me having 16 direct reports across two teams: IT and Software Engineering. Over the course of 2017 I hired about 15 people, mostly software engineers. To make this at all sustainable, I had to graduate some exceptional engineering leads into formal team leaders.
+
+This was the first time any of these six team leads had formally had direct reports. There was a fair bit of growing pains:
+ - Moving people's success cycles from engineering delivery to team member empowerment
+ - Confidence in their position.
+ - Rapport with team members and larger organization
+
+We all read through [The Five Levels of Leadership](http://www.johnmaxwell.com/blog/5-levels-of-leadership) to gain a baseline shared language for our first few steps into this new responsibility step. We also set up a regular lunch with that group to share stories and troubles.
+
+
+## Elsewhere
+
+### Inman Hacker Connect
+I hopped out to NYC in January to attend the inaugural Hacker Connect. This event is a Real Estate technology get-together for people pushing standards and innovations in that space. I especially enjoyed the talks on Blockchain for Real Estate and AR and VR for home tours.
+
+### DVLP Denver, DenverDevs
+[DVLP Denver](https://developdenver.org/) is an awesome little conference put on by some technologists in Denver that had an eclectic mix of speakers touching on all things internet technology. The venue was especially delightful: four small art galleries in Denver's Santa Fe arts district. BombBomb sent a contingent of four of us.
+
+The best long-term takeaway for me was getting into the [DenverDevs](https://denverdevs.org/) slack community. This is one of the best virtual professional technology communities I've ever encountered. There're a number very helpful channels on specific technologies, and a playful community in general. Check it out!
+
+### coloradoSprings.js
+[Colorado Springs' long term javascript meetup](https://www.meetup.com/coloradospringsjs/) lost its organizer this year and I volunteered to take it over. We hosted two meetups in October and December: [Serverless Applications](https://patrickmcdavid.com/hotdogcloud/) and [GatsbyJS](https://www.meetup.com/coloradospringsjs/events/xwwhglywqbkc/). These have been going great, and I'm excited to host one every month in 2018.
+
+### CTO Summit
+I learned about the [NYC CTO Summit](https://www.ctoconnection.com/summits/ny2017) on a Wednesday and the next Monday I was on a plane. It was a wild hair, but it worked out great! My favorite presentation was by Yvette Pasqua titled, "[Tackling technical debt at scale](http://www.ustream.tv/recorded/102892764)". We're putting a Continuous Application Health program together at BombBomb in Q1-2018 and we're all very excited about the prospect.
+
+## Themes
+2017 was about change and growth for me. Kids, houses, and starting to become a leader of leaders added up to a lot of gnashing and learning by failure. I intend for 2018 to be more about refinement and polishing the new world I inhabit.
