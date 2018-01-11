@@ -4,6 +4,7 @@ rvm:
 before_script:
 - npm install -g gulp-cli
 - npm install
+- gem install ruby_dep -v 1.3.1
 - gem install jekyll jekyll-paginate jekyll-feed jekyll-sitemap
 script:
 - jekyll build
