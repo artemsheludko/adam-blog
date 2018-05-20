@@ -14,7 +14,7 @@ $(function () {
 
   // Click outside of menu to close it
   flexContainer.click(function (e) {
-    if (flexContainer.hasClass('active')) {
+    if (flexContainer.hasClass('active') && e.target.tagName !== 'A') {
       flexContainer.removeClass('active')
     }
   })
