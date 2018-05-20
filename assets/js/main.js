@@ -1,22 +1,44 @@
-$(document).ready(function() {
+$(function () {
+  // Cache variables for increased performance on devices with slow CPUs.
+  var flexContainer = $('div.flex-container')
+  var searchBox = $('.search-box')
+  var searchClose = $('.search-icon-close')
 
   // Menu Settings
-  $('.menu-icon, .menu-icon-close').click(function(e) {
-    e.preventDefault();
-    $('.flex-container').toggleClass('active');
-  });
+  $('.menu-icon, .menu-icon-close').click(function (e) {
+    e.preventDefault()
+    e.stopPropagation()
+    flexContainer.toggleClass('active')
+  })
+
+  // Click outside of menu to close it
+  flexContainer.click(function (e) {
+    if (flexContainer.hasClass('active')) {
+      flexContainer.removeClass('active')
+    }
+  })
+
+  // Press Escape key to close menu
+  $(window).keypress(function (e) {
+    if (e.key === 'Escape') {
+      if (flexContainer.hasClass('active')) {
+        flexContainer.removeClass('active')
+      } else if (searchBox.hasClass('search-active')) {
+        searchBox.removeClass('search-active')
+      }
+    }
+  })
 
   // Search Settings
-  $('.search-icon').on('click', function(e){
-    e.preventDefault();
-    $('.search-box').toggleClass('search-active');
+  $('.search-icon').click(function (e) {
+    e.preventDefault()
+    searchBox.toggleClass('search-active')
 
-    if ($('.search-box').hasClass('search-active')) {
-      $('.search-icon-close').on('click', function(e){
-  		e.preventDefault();
-  		$('.search-box').removeClass('search-active');
-  	});
-  }
-  });
-
-});
+    if (searchBox.hasClass('search-active')) {
+      searchClose.click(function (e) {
+    		e.preventDefault()
+    		searchBox.removeClass('search-active')
+    	})
+    }
+  })
+})
