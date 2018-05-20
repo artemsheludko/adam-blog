@@ -3,6 +3,7 @@ $(function () {
   var flexContainer = $('div.flex-container')
   var searchBox = $('.search-box')
   var searchClose = $('.search-icon-close')
+  var searchInput = $('#search-input')
 
   // Menu Settings
   $('.menu-icon, .menu-icon-close').click(function (e) {
@@ -33,6 +34,7 @@ $(function () {
   $('.search-icon').click(function (e) {
     e.preventDefault()
     searchBox.toggleClass('search-active')
+    searchInput.focus()
 
     if (searchBox.hasClass('search-active')) {
       searchClose.click(function (e) {
