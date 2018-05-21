@@ -981,6 +981,7 @@ pre code {
   color: #311e3e;
   -webkit-transition: all .4s;
   transition: all .4s;
+  padding: 10px;
 }
 
 .menu-icon:hover,
