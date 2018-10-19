@@ -6,6 +6,5 @@ Built with Jekyll, hosted on AWS, and themed by [artemsheludko](https://artemshe
 
 ## todo topics
 
- - hotdog.cloud
  - BombBomb teams
  - scrum/kanban rollover
