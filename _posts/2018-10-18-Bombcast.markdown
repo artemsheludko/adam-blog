@@ -2,7 +2,8 @@
 layout: post
 title: "Podcast: Video Sales Strategies - The Bombcast!"
 author: Patrick McDavid
-img: product-cast.jpg
+image: 
+  feature: product-cast.jpg
 tags: [iOS, Android, ]
 ---
 

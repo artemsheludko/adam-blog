@@ -1,7 +1,1 @@
-<footer class="main-footer">
-  {% include social-list.html %}
-  <div class="copyright">
-    <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
-    <p><a href="https://travis-ci.org/ehippy/blog" target="_blank"><img src="https://travis-ci.org/ehippy/blog.svg?branch=master" /></a></p>
-  </div>
-</footer> <!-- End Footer -->
+<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</span>

@@ -2,7 +2,8 @@
 layout: post
 title: "Working for the Best Company"
 author: Patrick McDavid
-img: best-company.jpg
+image: 
+  feature: best-company.jpg
 tags: [Awards, BombBomb, Leadership]
 ---
 

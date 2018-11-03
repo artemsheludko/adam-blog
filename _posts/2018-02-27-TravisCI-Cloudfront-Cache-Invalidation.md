@@ -2,7 +2,8 @@
 layout: post
 title: CloudFront Invalidation with TravisCI
 author: Patrick McDavid
-img: cloudyMountain.jpg
+image: 
+  feature: cloudyMountain.jpg
 tags: [AWS, CloudFront, TravisCI]
 ---
 
