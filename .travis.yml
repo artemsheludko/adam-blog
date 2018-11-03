@@ -4,7 +4,7 @@ rvm:
 before_script:
 - npm install -g gulp-cli
 - npm install
-- gem install jekyll jekyll-paginate jekyll-feed jekyll-sitemap
+- gem install jekyll jekyll-paginate jekyll-feed jekyll-sitemap jekyll-gist
 script:
 - jekyll build
 env:
