@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Podcast: Video Sales Strategies - The Bombcast!"
+author: Patrick McDavid
+img: louvre-battle.jpg
+tags: [iOS, Android, ]
+---
+
+BombBomb's Bombcast invited myself and their VP of Product to talk about our Fall 2018 releases and some of the story behind them!
+
+<iframe style="border: solid 1px #dedede;"  src="https://app.stitcher.com/splayer/f/179561/56837086" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
