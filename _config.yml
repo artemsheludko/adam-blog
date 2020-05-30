@@ -1,40 +1,37 @@
-title: My personal blog - Adam Neilson
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: 하늘고래의 개발 일지 
+email: jun.gamedev@gmail.com
+description: skywhale's personal blog to share what he has learned.
 permalink: ':title/'
-baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: https://skywhale22.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Adam Neilson # add your name
-author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+author: Junyoung Kim # add your name
+author-pic: SkyWhale-logo.png
+about-author: 도전적이고, 창의적인 게임 개발자. 미국 소재 대학 휴학중. 현재 헤일로 팬게임을 제작 하며 산업기능요원을 준비하고 있음.
 
 # Contact links
-email: # Add your Email address
+email: jun.# Add your Email address
 phone: # Add your Phone number
 website: # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
+github: SkyWhale22 # Add your Github handle
+twitter: '@jun.gamedev' # Add your Twitter handle
+facebook: kimsuit22 # Add your Facebook handle
+instagram: jun_gamedev # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: skywhale22-github-io # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 12
 paginate_path: /page:num/
 
 # Build settings
