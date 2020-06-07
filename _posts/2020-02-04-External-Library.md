@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 게임 엔진 개발기(1) - 외부 라이브러리
+title: 🎮게임 엔진 개발기(1) - 외부 라이브러리
 date: 2020-01-24 20:45:46
-description: For testing
-img: post-1.jpg # Add image post (optional)
+description: 
+img: GameEngine/Post1/BackGround.jpg # Add image post (optional)
 tags: [game engine, c++]
 author: Junyoung Kim # Add name author (optional)
 ---

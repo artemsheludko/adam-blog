@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  게임 엔진 개발기(0) - 시리즈 소개
+title: 🎮게임 엔진 개발기(0) - 시리즈 소개
 date:   2020-01-24 18:45:46
-description: For testing
-img: post-1.jpg # Add image post (optional)
+description: 
+img: GameEngine/Post0/BackGround.jpg # Add image post (optional)
 tags: [game engine, c++]
 author: Junyoung Kim # Add name author (optional)
 ---
