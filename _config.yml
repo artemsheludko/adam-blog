@@ -3,7 +3,7 @@ email: b314050@iiit-bh.ac.in
 description: > # this means to ignore newlines until "baseurl:".
 permalink: ':title/'
 # baseurl: "/visionml-blo" # the subpath of your site, e.g. /blog
-url: "http://visionml-blog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://visionml-blog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Vision ML Team # add your name
