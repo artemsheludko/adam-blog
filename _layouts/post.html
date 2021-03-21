@@ -13,6 +13,14 @@ layout: default
           <h1 class="page-title">{{page.title}}</h1>
           <div class="page-date"><time datetime="{{page.date}}">{{page.date | date: '%Y, %b %d'}}</time></div>
         </div>
+        {% if page.github %}
+          <span class="github-btn" id="github-btn">
+            <a class="gh-btn" id="gh-btn" href="https://github.com/{{page.github}}" target="_blank" aria-label="Open on GitHub">
+              <span class="gh-ico" aria-hidden="true"></span>
+              <span>view on <b>GitHub</b></span>
+            </a>
+          </span>
+        {% endif %}
         {{page.content | markdownify}}
         <div class="page-footer">
           <div class="page-tag">
