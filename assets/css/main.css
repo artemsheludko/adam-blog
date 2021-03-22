@@ -9,7 +9,7 @@ span#github-btn {
 
 .github-btn {
     font: 11px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    height: 30px;
+    height: auto;
 }
 
 .gh-btn{
@@ -1701,6 +1701,16 @@ pre code {
 /* = = = = = = = = = = Media = = = = = = = = = = */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .gh-ico {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+  .gh-btn{
+  font-size: 13px;
+  line-height: 15px;
+  padding: 2px 5px 5px 2px;
+  }
   .main-header .logo a {
     font-size: 24px;
   }
@@ -1729,6 +1739,17 @@ pre code {
 }
 
 @media only screen and (max-width: 480px) {
+  .gh-ico {
+    width: 12px;
+    height: 12px;
+    margin-top: 1px;
+    margin-right: 2px;
+  }
+  .gh-btn{
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0px 5px 5px;
+  }
   .wrapper {
     max-width: 95%;
   }
