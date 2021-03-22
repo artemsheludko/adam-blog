@@ -1709,7 +1709,7 @@ pre code {
   .gh-btn{
   font-size: 13px;
   line-height: 15px;
-  padding: 2px 5px 5px 2px;
+  padding: 5px 5px 5px;
   }
   .main-header .logo a {
     font-size: 24px;
@@ -1748,7 +1748,7 @@ pre code {
   .gh-btn{
     font-size: 10px;
     line-height: 12px;
-    padding: 0px 5px 5px;
+    padding: 5px 5px 5px;
   }
   .wrapper {
     max-width: 95%;
