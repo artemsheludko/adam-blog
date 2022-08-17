@@ -1,0 +1,10 @@
+<div class="recent-box">
+  <h2 class="recent-title">Recent post</h2>
+  <div class="recent-list">
+    {% for post in site.posts offset:0 limit:4 %}
+      {% if post.title %}
+        <a href="{{ root_url }}{{ post.url | prepend: site.baseurl }}" class="recent-item" style="background: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"><span>{{ post.title }}</span></a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div> <!-- End Recent-Box -->

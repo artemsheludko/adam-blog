@@ -1,0 +1,81 @@
+.main-header {
+  font-family: 'Lato', sans-serif;
+  padding: 15px 0;
+  background-color: $white;
+  box-shadow: 0px -5px 15px rgba(0,0,0,.3);
+
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 50%;
+    text-align: center;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 27px;
+      font-weight: 300;
+      color: $dark-purple;
+    }
+  }
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 300px;
+  height: 100%;
+  background-color: $white;
+  padding: 25px 30px;
+  transform: translate3d(-300px, 0, 0);
+  ul {
+    padding: 15px 0 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      border-bottom: 1px solid $lighten-gray;
+      a {
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 18px;
+        color: $dark-purple;
+        &:hover {
+          opacity: .8;
+          color: $dark-pink;
+        }
+      }
+    }
+  }
+}
+
+.menu-icon-container {
+  width: 25%;
+  text-align: left;
+}
+
+.search-icon-container {
+  width: 25%;
+  text-align: right;
+}
+
+.menu-icon,
+.menu-icon-close,
+.search-icon a,
+.search-icon-close {
+  cursor: pointer;
+  font-size: 18px;
+  color: $dark-purple;
+  transition: all .4s;
+  padding: 10px;
+  &:hover {
+    opacity: .8;
+  }
+}
