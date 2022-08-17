@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
 url: "https://yuohn.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/yuohn" # the subpath of your site, e.g. /blog
 
 # Author settings
 author: Adam Neilson # add your name
