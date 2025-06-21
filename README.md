@@ -31,7 +31,7 @@ Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is importa
 
 GNU General Public License v3.0
 
-## Premium Themes
+## Premium Themes by Artem
 
 | [![Coderon Jekyll Theme](https://github.com/artemsheludko/artemsheludko.github.io/raw/master/assets/preview/coderon-preview.png?raw=true)](https://jekyllthemes.io/theme/coderon-blog-jekyll-theme) | [![Renva Portfolio Jekyll Theme](https://github.com/artemsheludko/artemsheludko.github.io/raw/master/assets/preview/renva-preview.png?raw=true)](https://jekyllthemes.io/theme/renva-portfolio-jekyll-theme) | [![Nomod](https://github.com/artemsheludko/artemsheludko.github.io/raw/master/assets/preview/nomod-preview.png?raw=true)](https://jekyllthemes.io/theme/nomod-blog-jekyll-theme) |
 |:---:|:---:|:---:|
